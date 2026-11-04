@@ -1,3 +1,41 @@
+/* Palette de couleurs */
+:root {
+  --bleu-gris: #7293A0;
+  --brun-caramel: #A36C55;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333333;
+  margin: 0;
+  padding: 20px;
+}
+
 h1 {
-   color: #7293A0;
+  color: var(--bleu-gris);
+  text-align: center;
+}
+
+.container {
+  background-color: #ffffff;
+  border: 2px solid var(--brun-caramel);
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+button {
+  background-color: var(--brun-caramel);
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--bleu-gris);
 }
